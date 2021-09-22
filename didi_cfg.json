@@ -1,0 +1,27 @@
+{
+    "name":"Yebing",
+    "month":"202106",
+    "target_amount": 95000,
+    "address_info":
+    {
+        "home":"Cl. 95 #21-80, Bogotá",
+        "super_market":["Ak. 15 #110-85, Bogotá", "Ak. 15 ##No. 123 - 30 Local 1233, Bogotá", "Cl 127 #14a-1, Bogotá", "Cl. 119 ##13-48, Bogotá", "Ac. 85 ##15-29, Bogotá, Cundinamarca"],
+        "shopping_mall":["Ak. 15 #84-60, Bogotá", "Cl. 82 #12-51, Bogotá", "Cl. 93a #10-99 a 10-1, Bogotá","Cl 127 ## 15 - 03 Local 113, Bogotá, Cundinamarca"],
+        "hospital":["Cra. 22 # 75 08, Barrios Unido, Bogotá", "Ak. 24 ##84-37, Bogotá" ],
+        "other_place":["Cra. 22 # 75 08, Barrios Unido, Bogotá", "Cl. 50 #82-55, Bogotá","Cra. 12a ## 83 - 11, Vapiano, Bogotá"]
+    },
+    "advance_setting":
+    {
+        "//": "Don't change these settings, unless you clearly know what you're doing.",
+        "avg_amount": 15000,
+        "avg_control_range": 3050,
+        "duration_range": [15, 30],
+        "days_range": [12,13,14,15],
+        "amount_increase_per_minute": 190,
+        "workday_travel_hours": "11-15,18-20",
+        "weekend_travel_hours": "11-21",
+        "workday_weight": 1,
+        "weekend_weight": 6,
+        "log_level": "DEBUG"
+    }
+}
